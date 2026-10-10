@@ -1,5 +1,9 @@
 # Fronius Verto Web
 
+> [!note]
+> This is 100% vibecoded.
+> The only reason this is a public project is to make HACS integration easier
+
 Read-only Home Assistant custom integration for the **local Verto web interface API**.
 Works with Solar API disabled. No Modbus connection, Solar.web account or cloud service is used.
 
