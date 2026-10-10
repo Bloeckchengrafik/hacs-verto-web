@@ -1,0 +1,12 @@
+{
+  "domain": "verto_web",
+  "name": "Fronius Verto Web",
+  "codeowners": ["@Bloeckchengrafik"],
+  "config_flow": true,
+  "documentation": "https://github.com/Bloeckchengrafik/hacs-verto-web",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/Bloeckchengrafik/hacs-verto-web/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

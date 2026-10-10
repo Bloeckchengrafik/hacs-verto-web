@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to the Verto web API",
+        "description": "Enter the inverter host or HTTP(S) URL. Solar API may remain disabled.",
+        "data": {
+          "host": "Inverter address"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot read the powerflow endpoint. Check the host, network access and firmware.",
+      "auth_required": "The web API requires authentication on this firmware. Unauthenticated access is not available.",
+      "invalid_host": "Enter a host or HTTP(S) URL without credentials, path or query."
+    },
+    "abort": {
+      "already_configured": "This inverter address is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Polling interval",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}

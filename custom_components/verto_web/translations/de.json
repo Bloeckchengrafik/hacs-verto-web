@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Verto-Web-API verbinden",
+        "description": "Adresse des Wechselrichters eingeben. Die Solar API kann deaktiviert bleiben.",
+        "data": {
+          "host": "Wechselrichter-Adresse"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Powerflow-Endpunkt nicht erreichbar. Adresse, Netzwerk und Firmware prüfen.",
+      "auth_required": "Diese Firmware verlangt eine Anmeldung für die Web-API. Zugriff ohne Anmeldung ist nicht verfügbar.",
+      "invalid_host": "Host oder HTTP(S)-URL ohne Zugangsdaten, Pfad oder Abfrage eingeben."
+    },
+    "abort": {
+      "already_configured": "Diese Wechselrichter-Adresse ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Abfrageintervall",
+        "data": {
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        }
+      }
+    }
+  }
+}
